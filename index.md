@@ -57,7 +57,7 @@ Lisaks praktikumidele sisaldab õppeaine järgnevaid komponente:
 * **Projekt:** Lisaks tuleb läbi viia üks praktiline projekt vabalt valitud andmestiku peal. Projektitöö eesmärgiks on näidata, kuivõrd on tudeng omandanud oskused kasutada R-i andmete töötlemiseks. Samuti oskust R-ga analüüside tulemusi vormistada (nt. joonised).
   * Projekti võib teha kas üksinda või paaristööna. 
   * Tulemusi on vaja esitleda suulisel kaitsmisel. 
-  * Projektid riputatakse pärast esitamist avalikult [projektid](https://Rkursus.github.io/2020/projekt_juhend) lehele.
+  * Projektid riputatakse pärast esitamist avalikult [projektid](https://Rkursus.github.io/2021/projekt_juhend) lehele.
 * Iga projekti esitanud tudeng(id) saavad ühe kaastudengi(te) projekti retsenseerimiseks.
 
 Aine läbimiseks on vaja:
@@ -95,5 +95,6 @@ Aine läbimiseks on vaja:
 
 # Kontakt ja küsimused
 
-* I rühm - Kaur Lumiste kaur.lumiste [at] ut.ee ja Deltas kab. 4079.
+* I rühm - Kaari Kuus kaari.kuus [at] ut.ee
 * II rühm - Anne Selart anne.selart [at] ut.ee ja Deltas kab. 4070.
+* Mikrokraadiprogramm - Reijo Sepp reijo.sepp [at] ut.ee

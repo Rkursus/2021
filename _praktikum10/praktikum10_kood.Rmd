@@ -4,7 +4,7 @@ output: pdf_document
 ---
 # Esimene arvutus
 ```{r,echo=FALSE}
-mass <- read.table("https://github.com/Rkursus/2020/raw/master/data/mass.txt", sep ="\t", header = T)
+mass <- read.table("https://github.com/Rkursus/2021/raw/master/data/mass.txt", sep ="\t", header = T)
 ```
 
 Massachusettsi andmestikus on kokku `r nrow(mass)` inimest; sooline jaotus on järgnev:

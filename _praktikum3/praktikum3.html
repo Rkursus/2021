@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
 <html>
 
@@ -60,7 +59,7 @@ if (window.hljs) {
 <div id="toimingud-andmestikuga" class="section level1">
 <h1><span class="header-section-number">1</span> Toimingud andmestikuga</h1>
 <p>Impordime uuesti andmestiku, mida korra kasutasime ka eelmises praktikumis (Massachusettsi andmestik), ja vaatame andmestikust ülevaadet</p>
-<pre class="r"><code>andmed &lt;- read.table(&quot;https://github.com/Rkursus/2020/raw/master/data/mass.txt&quot;, 
+<pre class="r"><code>andmed &lt;- read.table(&quot;https://github.com/Rkursus/2021/raw/master/data/mass.txt&quot;, 
                      header = T, sep = &quot;\t&quot;)
 str(andmed)</code></pre>
 <div id="veergude-ja-ridade-eraldamine-andmestikust-indeksi-ja-nime-järgi" class="section level2">
@@ -159,7 +158,7 @@ prop.table(sagedustabel, margin = 2)  # iga veerg kokku 1 (ehk 100%)</code></pre
 <p><strong>Faktortunnus</strong> pole tegelikult nn elementaartüüp (nagu näiteks <code>integer</code>), vaid keerulisem konstruktsioon. Nimelt faktortunnus on sildistatud koodide tunnus. Kui andmestik R-i sisse loetakse, siis saame määrata, et tähelisi väärtuseid sisaldavate tunnuste tüübiks tekiks <code>factor</code> (selleks panna <code>read.table(.)</code> argumendi <code>stringsAsFactors</code> väärtuseks <code>TRUE</code>) ning iga erinev väärtus kodeeritakse mingi täisarvuga, aga lisaks tehakse kodeerimistabel, kus on kirjas iga täisarvu (kodeeringu) tekstiline väärtus (ehk silt).</p>
 <p>Et teada saada, mitu erinevat väärtust antud faktortunnusel võib üldse olla, kasutatakse käsku <code>levels(.)</code>. Sealjuures ei pruugi kõiki faktori väärtustasemeid antud andmetes üldse esineda:</p>
 <pre class="r"><code># loeme andmestiku uuesti sisse, tekitades faktor-tunnused
-andmed1 &lt;- read.table(&quot;https://github.com/Rkursus/2020/raw/master/data/mass.txt&quot;, 
+andmed1 &lt;- read.table(&quot;https://github.com/Rkursus/2021/raw/master/data/mass.txt&quot;, 
                      header = T, sep = &quot;\t&quot;, stringsAsFactors = T)
 # tekitame uuesti alamandmestiku
 mehed1 &lt;- andmed1[andmed1$SEX == &quot;Male&quot;,]

@@ -9,16 +9,16 @@ title:            "Rakendustarkvara: R"
 tagline:          LTMS.00.016
 url:              http://rkursus.github.io/
 paginate:         1
-baseurl:          /2020
+baseurl:          /2021
 author:
-  name:           Kaur Lumiste
+  name:           Anne Selart
   url:            
-  email:          kaur.lumiste@ut.ee, anne.selart@ut.ee
+  email:          anne.selart@ut.ee
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           http://rkursus.github.io/2020
+  repo:           http://rkursus.github.io/2021
 
 pages_list:       
   Praktikumid: '/praktikumid'

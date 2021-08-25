@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
 <html>
 
@@ -115,7 +114,7 @@ str_split(c(lause1, lause2), c(&quot;ja&quot;, &quot;või&quot;))</code></pre>
 <h3><span class="header-section-number">1.1.1</span> Ülesanded</h3>
 <ol style="list-style-type: decimal">
 <li>Loe sisse Massatchusettsi andmestik:<br />
-<code>link &lt;- &quot;https://github.com/Rkursus/2020/raw/master/data/&quot;</code><br />
+<code>link &lt;- &quot;https://github.com/Rkursus/2021/raw/master/data/&quot;</code><br />
 <code>mass &lt;- read.table(str_c(link, &quot;mass.txt&quot;), sep = &quot;\t&quot;, header = T)</code><br />
 Andmetabelis on veerus OCCP iga inimese amet, sealjuures kolme esimese tähega on kodeeritud vastav valdkond; näiteks kõik puhastusteenustega seotud ametid algavad tähtedega CLN. Mitu erinevat valdkonda on selles andmetabelis?</li>
 <li>Kasutades sama tunnnust (<code>OCCP</code>) lisa andmestikku uus veerg <code>OCCP1</code>, mille väärtused oleks samad kui <code>OCCP</code>-l, kuid töötutel oleks tunnuse väärtus kujul <em>&quot;UNE-UNEMPLOYED, LAST WORKED 5 YEARS AGO OR EARLIER OR NEVER&quot;</em>.</li>
@@ -199,7 +198,7 @@ str_replace("telefoninumber: +372 55-549-85", "[a-zA-Z: ]*(\\+[0-9]*)*( )*(.*)",
 <h3><span class="header-section-number">1.2.1</span> Ülesanded</h3>
 <ol style="list-style-type: decimal">
 <li>Massatchusettsi andmestikus on veerus <code>COW</code> ära toodud, kelle heaks inimene töötab. Kui tegemist on palgatöötajaga, sisaldab <code>COW</code> väärtus vastava inimese puhul sõna <em>Employee</em> või <em>employee</em>. Milline on palgatöötajate keskmine palk (<code>WAGP</code>)? Andmestik:<br />
-<code>link &lt;- &quot;https://github.com/Rkursus/2020/raw/master/data/&quot;</code><br />
+<code>link &lt;- &quot;https://github.com/Rkursus/2021/raw/master/data/&quot;</code><br />
 <code>mass &lt;- read.table(str_c(link, &quot;mass.txt&quot;), sep = &quot;\t&quot;, header = T)</code></li>
 <li>Eesti isikukoodi formaat<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> on järgmine: abcdefghijk, kus a -- sugu ja sajand (paaritu arv mees, paarisarv naine, 1,2 -- 1800, 3,4 -- 1900, 5,6 -- 2000); bc -- aasta, de -- kuu, fg -- päev, hij -- (haigla) sel päeval (selles haiglas) sündimise järjekord, k -- kontrollnumber.
 <ol style="list-style-type: decimal">
