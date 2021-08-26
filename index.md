@@ -1,4 +1,4 @@
-﻿---
+---
 layout: frontpage
 ---
 
@@ -51,13 +51,13 @@ Kursus on mõeldud statistikahuvilistele üliõpilastele, kes pole varem tarkvar
 
 Lisaks praktikumidele sisaldab õppeaine järgnevaid komponente:
 
-* **Kodutööd:** Kokku antakse 5 kodutööd. 
-  * Kodutöö koosneb iseseisvalt lahendavatest ülesannetest praktikumis läbitud teemadel. Iga kodutöö tulemuseks on *.R fail koodi ning kommentaaridega keskkonnas või läbitud kursus [DataCamp](https://www.datacamp.com) keskkonnas.  
-  * Kodutööde esitamine käib läbi Moodle või [DataCamp](https://www.datacamp.com) keskkonna.
+* **Kodutööd:** Kokku antakse 5 kodutööd (iga nädal üks). 
+  * Kodutöö seisneb ülesannete komplektide  lahendamises [DataCamp](https://www.datacamp.com) veebikeskonnas.
+  * Kodutöö ülesanded tuleb lahendada vastavalt etteantud tähtajale.
 * **Projekt:** Lisaks tuleb läbi viia üks praktiline projekt vabalt valitud andmestiku peal. Projektitöö eesmärgiks on näidata, kuivõrd on tudeng omandanud oskused kasutada R-i andmete töötlemiseks. Samuti oskust R-ga analüüside tulemusi vormistada (nt. joonised).
-  * Projekti võib teha kas üksinda või paaristööna. 
+  * Projekti tuleb teha kahestes meeskondades, kuid võib ka üksinda. 
   * Tulemusi on vaja esitleda suulisel kaitsmisel. 
-  * Projektid riputatakse pärast esitamist avalikult [projektid](https://Rkursus.github.io/2021/projekt_juhend) lehele.
+  <!--* Projektid riputatakse pärast esitamist avalikult [projektid](https://Rkursus.github.io/2021/projekt_juhend) lehele.-->
 * Iga projekti esitanud tudeng(id) saavad ühe kaastudengi(te) projekti retsenseerimiseks.
 
 Aine läbimiseks on vaja:
@@ -79,17 +79,17 @@ Aine läbimiseks on vaja:
 
 # Tunniplaan
 
-Õppeaine toimub 2020/2021. õppeaasta sügissemestril. 
+Õppeaine toimub 2021/2022. õppeaasta sügissemestril. 
 
-* Praktikumid **teisipäeviti kell 14:15** ja **neljapäeviti kell 8:15** ruumis 2030
-	* I rühm nädalatel 2 - 6
-	* II rühm nädalatel 10 - 14
+* Praktikumid **teisipäeviti kell 14:15** ja **neljapäeviti kell 8:15**  
+	* I rühm ja mikrokraadi rühm nädalatel 2 - 6
+	* II rühm nädalatel 7 - 11
 * **Projektide tähtaeg**:
-	* I rühm **neljapäeval, 22. oktoober kell 12:00** (nädal 8).
-	* II rühm **neljapäeval, 17. detsember kell 12:00** (nädal 16).
+	* I rühm ja mikrokraadi rühm **neljapäeval, 21. oktoober kell 12:00** (nädal 8).
+	* II rühm **neljapäeval, 25. november kell 12:00** (nädal 13).
 * **Projektide ettekandmine**:
-	* I rühm **teisipäeval, 3. november kell 14:15** (nädal 10).
-	* II rühm (täpsustamisel).
+	* I rühm ja mikrokraadi rühm (aeg täpsustamisel).
+	* II rühm (aeg täpsustamisel).
 
 <br/>
 
