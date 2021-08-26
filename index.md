@@ -82,13 +82,16 @@ Aine läbimiseks on vaja:
 Õppeaine toimub 2021/2022. õppeaasta sügissemestril. 
 
 * Praktikumid **teisipäeviti kell 14:15** ja **neljapäeviti kell 8:15**  
-	* I rühm ja mikrokraadi rühm nädalatel 2 - 6
+	* I rühm nädalatel 2 - 6
+	* Mikrokraadi rühm nädalatel 2 - 6
 	* II rühm nädalatel 7 - 11
 * **Projektide tähtaeg**:
-	* I rühm ja mikrokraadi rühm **neljapäeval, 21. oktoober kell 12:00** (nädal 8).
+	* I rühm **neljapäeval, 21. oktoober kell 12:00** (nädal 8).
+	* Mikrokraadi rühm **neljapäeval, 21. oktoober kell 12:00** (nädal 8).
 	* II rühm **neljapäeval, 25. november kell 12:00** (nädal 13).
 * **Projektide ettekandmine**:
-	* I rühm ja mikrokraadi rühm (aeg täpsustamisel).
+	* I rühm  (aeg täpsustamisel).
+	* Mikrokraadi rühm (aeg täpsustamisel)
 	* II rühm (aeg täpsustamisel).
 
 <br/>
