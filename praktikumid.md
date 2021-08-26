@@ -23,8 +23,9 @@ Andmete importimine, väärtustetüübid ja teisendused, lisapakettide kasutamin
 * [RStudio snipetid](https://github.com/Rkursus/2021/raw/master/RStudio_snippetid.txt)
 * Kodutöö I <!-- [Kodutöö](praktikum2_kodutoo.md)-->
     * Tähtaeg:
-		* I rühm - 17.09.2020 kell 08:00.
-		* II rühm - 12.11.2020 kell 08:00.
+		* I rühm - 16.09.2021 kell 07:45.
+		* Mikrokraadi rühm - 16.09.2021 kell 07:45.
+		* II rühm - 21.10.2021 kell 07:45.
 
 
 ## Praktikum 3
@@ -45,8 +46,9 @@ Andmestike ühendamine, unikaalsed ja mitmekordsed elemendid, andmete sorteerimi
 * [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum4/praktikum4_kood.R)
 * Kodutöö II <!--[Kodutöö](praktikum4_kodutoo.md)-->
     * Tähtaeg:
-		* I rühm - 24.09.2020 kell 08:00.
-		* II rühm - 19.11.2020 kell 08:00.
+		* I rühm - 23.09.2021 kell 07:45.
+		* Mikrokraadi rühm - 23.09.2021 kell 07:45.
+		* II rühm - 28.10.2021 kell 07:45.
 
 
 ## Praktikum 5
@@ -70,8 +72,9 @@ Joonised `ggplot2`-ga jätkub - joonisele kihtide lisamine, skaalade muutmine, j
 * [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum6/praktikum6_kood.R)
 * Kodutöö III <!--Kodutöö](praktikum6_kodutoo.md)-->
     * Tähtaeg:
-		* I rühm - 01.10.2020 kell 08:00.
-		* II rühm - 26.11.2020 kell 08:00.
+		* I rühm - 30.09.2021 kell 07:45.
+		* Mikrokraadi rühm - 30.09.2021 kell 07:45.
+		* II rühm - 4.11.2021 kell 07:45.
 
 ## Praktikum 7
 
@@ -91,8 +94,9 @@ Töötamine kuupäevadega ja sõnetöötlus paketiga `stringr`.
 * [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum8/praktikum8_kood.R)
 * Kodutöö IV <!--[Kodutöö](praktikum8_kodutoo.md)-->
     * Tähtaeg:
-		* I rühm - 08.10.2020 kell 08:00.
-		* II rühm - 03.12.2020 kell 08:00.
+		* I rühm - 7.10.2021 kell 07:45.
+		* Mikrokraadi rühm - 7.10.2021 kell 07:45.
+		* II rühm - 11.11.2021 kell 07:45.
 	
 
 ## Praktikum 9
@@ -115,11 +119,12 @@ Tulemuste vormistamine pakettidega `knitr` ja `rmarkdown`.
 * [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum10/praktikum10_kood.Rmd)
 * Kodutöö V <!--[Kodutöö](praktikum10_kodutoo.md)-->
     * Tähtaeg:
-		* I rühm - 15.10.2020 kell 08:00.
-		* II rühm - 10.12.2020 kell 08:00.
+		* I rühm - 14.10.2021 kell 07:45.
+		* Mikrokraadi rühm - 14.10.2021 kell 07:45.
+		* II rühm - 18.11.2021 kell 07:45.
 		
 		
-## Lisa materjali:
+## Lisamaterjali:
 
 * [R for cats](https://rforcats.net/)
 * [R Reference card](https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf) - lühikogum R-i peamistest käskudest
