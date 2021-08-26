@@ -1,6 +1,6 @@
 ---
+title: "Projekti juhend"
 layout: page
-title: Projekti juhend
 ---
 
 
