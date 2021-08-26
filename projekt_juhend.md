@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: Projekti juhend
 ---
@@ -6,15 +6,15 @@ title: Projekti juhend
 
 **Projekt tuleb esitada hiljemalt**
 
-- **I rühm**:   22. oktoober 2020 kell 12:00
-- **II rühm**:  17. detsember 2020 kell 12:00
+- **I rühm** ja **mikrokraadiprogramm**:   21. oktoober 2021 kell 12:00
+- **II rühm**:  25. november 2021 kell 12:00
 
 Projektid esitage Moodle keskkonna kaudu. Kõikides saadetud töö failide nimedes peab kajastuma tudengi(te) nimi.
 
 Projektide valmimise käigus tekkinud küsimuste ja probleemide lahendamiseks on võimalus tulla ja küsida järgmistel aegadel:
 
-- **I rühm** T, 20. oktoober 2020 kell 14:15 aud. Delta 2030 (eelnevalt peab konsultatsiooni soovist teada andma).
-- **II rühm** T, 15. detsember 2020 kell 14:15 (eelnevalt peaks konsultatsiooni soovist teada andma).
+- **I rühm** ja **mikrokraadiprogramm** T, 19. oktoober 2021 kell 14:15   (eelnevalt peab konsultatsiooni soovist teada andma).
+- **II rühm** T, 23. november 2021 kell 14:15 (eelnevalt peaks konsultatsiooni soovist teada andma).
 
 
 
@@ -65,7 +65,8 @@ Projekti võib esitada kahel viisil:
 
 ### Nõuded detailsemalt
 
-Oskused, mida kasutada võiks:
+
+Oskused, mida näidata võiks:
 
 * andmete sisselugemine (nt. `read.table`, `read_excel`, jne)
 * tüübiteisendused (nt. `as.numeric`, `as.character`, faktorite moodustamine või tasemete ümberjärjestamine)
@@ -74,27 +75,20 @@ Oskused, mida kasutada võiks:
 * alamhulkade eraldamine andmetest (nt. `select`, `filter`, [, $, veerunimed, reaindeksid, eriti aga tõeväärtusvektorid)
 * sõnetöötlus, kuupäevade töötlemine (nt. isikukoodist soo eraldamine, moodustada `<aasta>-<nädal>` muutuja)
 * andmete teisendamine pika ja laia formaadi vahel (nt. `melt`, `cast`, koos agregeerimisega)
-* graafika `ggplot2`-ga
-* paketi `dplyr` või `data.table` käskude kasutamine
-* lisafunktsioonide kirjutamine (nt. arvutuskäik, mida tihti kasutatakse muudetakse funktsiooniks)
+* graafika `ggplot2`-ga, erinevat tüüpi joonised
+* paketi `dplyr` või `data.table` käskude kasutamine (valida üks!)
+* vajalike lisafunktsioonide kirjutamine (nt. arvutuskäik, mida tihti kasutatakse muudetakse funktsiooniks)
 
 
 ## Projekti hindamine
 
 Projekti hindamisel võetakse aluseks:
 
-* Analüüsist lähtuvalt õigesti ja asjakohaselt kasutatud oskuste arv "Nõuded detailsemalt"" loetelust (kuni 10 p)
-* Jooniste vormistus (1 p)
-* Teksti vormistus (2 p)
+* Analüüsist lähtuvalt õigesti ja asjakohaselt kasutatud oskuste arv "Nõuded detailsemalt"" loetelust (kuni 11 p)
+* Koodi vormistus ja kommentaarid (2 p)
+* Analüüsi teksti, jooniste ja tabelite vormistus (2 p)
 * Projekti sisukus (2 p)
-* Boonuspunktid (2 p)
 
-
-Boonuspunkte võib saada õppejõu äranägemise järgi järgmiste tingimuste olemasolul:
-
-* Praktikumis käsitletud R-i käskude/pakettide/funktsioonide äärmiselt oskuslik kasutamine, 
-* Praktikumis mitte käsitletud käskude/pakettide/funktsioonide laialdane kasutamine,
-* Ilusasti vormistatud R-i kood koos ammendavate kommentaaridega.
 
 
 **Projektitöö on arvestatud kui töö eest on saadud vähemalt 8 punkti.**
@@ -119,5 +113,5 @@ Boonuspunkte võib saada õppejõu äranägemise järgi järgmiste tingimuste ol
 
 **Näited**
 
-Näited leiad [projektide lehelt](projektid) ja [eelmise aasta projektide hulgast](https://rkursus.github.io/sygis2019/projektid).
+Näiteid leiad [projektide lehelt](projektid) ja eelmiste aastate projektide hulgast: [2019 projektid](https://rkursus.github.io/sygis2019/projektid), [2020 projektid](https://rkursus.github.io/2020/projektid).
 
