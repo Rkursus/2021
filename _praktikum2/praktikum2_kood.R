@@ -131,7 +131,7 @@ setwd("C:/Users/mina/Rkursus/")
 # vt. faili "RStudio snipetid"   
 
 # Näide andmete sisselugemisest
-näide1 <- read.table("https://github.com/Rkursus/2020/raw/master/data/esimene.txt",
+näide1 <- read.table("https://github.com/Rkursus/2021/raw/master/data/esimene.txt",
                      header = T, sep = "\t", dec = ",")
 
 # Tulemused saab kirjutada faili käsuga write.table()
@@ -146,13 +146,13 @@ write.table(näide1, "failinimi.txt", sep = "\t")
 
 
 # 2. 
-tab1 <- read.table("https://github.com/Rkursus/2020/raw/master/data/____", ____)
+tab1 <- read.table("https://github.com/Rkursus/2021/raw/master/data/____", ____)
 
-tab2 <- read.table("https://github.com/Rkursus/2020/raw/master/data/____", ____)
+tab2 <- read.table("https://github.com/Rkursus/2021/raw/master/data/____", ____)
 
-tab3 <- read.table("https://github.com/Rkursus/2020/raw/master/data/____", ____)
+tab3 <- read.table("https://github.com/Rkursus/2021/raw/master/data/____", ____)
 
-tab4 <- read.table("https://github.com/Rkursus/2020/raw/master/data/____", ____)
+tab4 <- read.table("https://github.com/Rkursus/2021/raw/master/data/____", ____)
 
 tab1;tab2;tab3;tab4
 
@@ -199,7 +199,7 @@ library(readxl)
 
 # --- 2.4.1 MS Excel failid (.xls, .xlsx) ----
 
-# salvesta MS Exceli fail "tudengite-arv.xlsx" aadressilt https://github.com/Rkursus/2020/tree/master/data oma töökausta
+# salvesta MS Exceli fail "tudengite-arv.xlsx" aadressilt https://github.com/Rkursus/2021/tree/master/data oma töökausta
 
 list.files()   # vaata, mis nimega failid on töökaustas
 excel_sheets("tudengite-arv.xlsx")   # töölehtede nimed MS Exceli failis
@@ -217,7 +217,7 @@ str(tabel)
 
 # ---  2.4.2 SAS, SPSS, Stata failide imoport ----
 
-# salvesta aadressilt https://github.com/Rkursus/2020/tree/master/data oma töökausta failid:
+# salvesta aadressilt https://github.com/Rkursus/2021/tree/master/data oma töökausta failid:
 # "effort.sas7bdat"  - SAS andmefail
 # "effort.dta" - Stata fail
 # "effort.sav" - SPSS fail  

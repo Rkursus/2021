@@ -22,11 +22,14 @@ hook2 <- function(x){ gsub("```\n+```\n", "", x) }
 
 # Lühike sissejuhatus
 
-R on programmeerimiskeel ja -keskkond, mis on arendatud statistiliseks andmetöötluseks. R-i kasutavate inimeste hulk on viimase kümmekonna aasta jooksul oluliselt kasvanud nii ülikoolides kui ka ettevõtetes^[http://r4stats.com/articles/popularity/]. Eelkõige on populaarsuse põhjus vaba ligipääs, lai valik lisapakette ja kvaliteetsete jooniste tegemise võimalus. 
+R on programmeerimiskeel ja -keskkond, mis on arendatud statistiliseks andmetöötluseks. R-i kasutavate inimeste hulk on viimase kümmekonna aasta jooksul oluliselt kasvanud nii ülikoolides kui ka ettevõtetes^[http://r4stats.com/articles/popularity/, https://www.techrepublic.com/article/r-programming-language-continues-to-grow-in-popularity/]. Eelkõige on populaarsuse põhjus vaba ligipääs, lai valik lisapakette ja kvaliteetsete jooniste tegemise võimalus. 
 
 R-i kodulehelt saab vajaliku tarkvara alla laadida: http://www.r-project.org/
 
-## Kasutajaliides
+## Kasutajaliidesed
+
+### Programm R ise
+
 Ava Start-menüü ja otsi programm nimega R, käivita see.
 
 Programmil R on äärmiselt minimalistlik kasutajaliides. Programmi käivitades on näha ainult konsooliaken. Rea ees olev märk `>` näitab, et R ootab uut käsku. Käsud saab kirjutada sümboli `>` järele, sealjuures võib üks käsk paikneda mitmel järjestikusel real. Kui R-i arvates on käsu sisestamine pooleli, on konsoolirea alguses sümbol `+`, sel juhul võib käsu sisestamist uuest reast jätkata. Kui aga reavahetus on lisatud ekslikult, näiteks on koodis näha viga just eelnevas reas (mida pärast reavahetuse lisamist enam redigeerida ei saa) saab uue tühja käsurea tekitada vajutades `Esc` klahvi. 
@@ -61,7 +64,9 @@ log(5.9)  # võtame naturaallogaritmi arvust 5,9
 Pane tähele, et **kümnendmurru eraldamiseks** kasutatakse R-is punkti, mitte koma.
 
 
-Kahjuks on R-i kasutajaliides mõnevõrra ebamugav. Näiteks konsooliaknas ei saa hiirega kursori asukohta muuta. Samuti on kogu tekst sama värvi (koodi värvimine puudub). Üks alternatiivne kasutajaliides R-i kasutamiseks on **RStudio**^[http://www.rstudio.com/], kus neid puuduseid pole ning millega on natuke hõlpsam koodi kirjutada. Praktikumides hakkamegi edaspidi kasutama programmi RStudio.
+### Programmi R kasutamine läbi RStudio
+
+Kahjuks on R-i kasutajaliides mõnevõrra ebamugav. Näiteks konsooliaknas ei saa hiirega kursori asukohta muuta. Samuti on kogu tekst sama värvi (koodi värvimine puudub). Üks alternatiivne kasutajaliides R-iga töötamiseks on **RStudio**^[http://www.rstudio.com/], kus neid puuduseid pole ning millega on natuke hõlpsam koodi kirjutada. Praktikumides hakkamegi edaspidi kasutama programmi RStudio.
 
 Ava Start-menüü ja otsi programm nimega RStudio, käivita see.
 
@@ -77,7 +82,7 @@ Ava Start-menüü ja otsi programm nimega RStudio, käivita see.
     - kommentaari lisamiseks tuleb vastava rea algusess lisada `#`-märk;
     - mingi koodilõigu käivitamiseks tuleb see hiirega ära valida ning vajutada klahvikombinatsiooni `Ctrl+Enter`.
 
-
+<br>
 
 
 
@@ -147,7 +152,7 @@ log(8, BASE = 2)
 <!-- 1. Vaata milline abileht avaneb, kui kasutada käsku `?reserved` -->
 
 
-
+<br>
 
 # Muutujatega töötamine
 
@@ -230,7 +235,8 @@ kaalud[seq(1, 6, 2)] # iga teine element alates esimesest
 
 
 
-###Ülesanded
+### Ülesanded
+
 1. Moodusta vektor nimega `y`, mille väärtuseks oleks arvud `1 1 1  2 2 2 2  3 3 3 3 3` kasutades käsku `rep`.
 1. Leia vektor `z`, mille liitmisel `y`-le on tulemuseks vektor, mille kõik koordinaadid on võrdsed `7`.
 1. Vali eelnevast vektorist välja iga kolmas väärtus, kasutades kantsulge ja sobivat indeksite vektorit.
