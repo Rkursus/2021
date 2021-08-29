@@ -10,7 +10,7 @@ title: Praktikumimaterjalid
 Ülevaade statistikakeelest R, tutvumine kasutajaliidesega, R kui kalkulaator, abi saamine R-is, lihtsamad funktsioonid, objektid, töökeskkond, puuduvad väärtused, vektorid, tehted vektoritega. 
  
 * [Praktikumi materjalid](praktikum1)
-* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum1/praktikum1_kood.R)-->
+* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum1/praktikum1_kood.R)
 
 
 ## Praktikum 2
@@ -18,8 +18,8 @@ title: Praktikumimaterjalid
 
 Andmete importimine, väärtustetüübid ja teisendused, lisapakettide kasutamine, erinevas formaadis andmestike lugemine R-i, andmetabel R-is, esmane andmete kirjeldus.
 
-* [Praktikumi materjalid]<!--(praktikum2)-->
-* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum2/praktikum2_kood.R)-->
+* [Praktikumi materjalid](praktikum2)
+* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum2/praktikum2_kood.R)
 * [RStudio snipetid](https://github.com/Rkursus/2021/raw/master/RStudio_snippetid.txt)
 * Kodutöö I <!-- [Kodutöö](praktikum2_kodutoo.md)-->
     * Tähtaeg:
