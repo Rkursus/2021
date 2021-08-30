@@ -52,7 +52,7 @@ Kursus on mõeldud statistikahuvilistele üliõpilastele, kes pole varem tarkvar
 Lisaks praktikumidele sisaldab õppeaine järgnevaid komponente:
 
 * **Kodutööd:** Kokku antakse 5 kodutööd (iga nädal üks). 
-  * Kodutöö võib seisneda [DataCamp](https://www.datacamp.com)  veebikeskkonnas erinevate kursuste läbimises või ülesande lahenduskoodi (+ selgitavate kommentaaride) kirjutamises. 
+  * Kodutöö võib seisneda [DataCamp](https://www.datacamp.com)  veebikeskkonnas erinevate kursuste läbimises või ülesande lahenduskoodi (+ selgitavate kommentaaride) kirjutamises ja faili esitamises läbi Moodle. 
   * Kodutöö ülesanded tuleb lahendada vastavalt etteantud tähtajale.
 * **Projekt:** Lisaks tuleb läbi viia üks praktiline projekt vabalt valitud andmestiku peal. Projektitöö eesmärgiks on näidata, kuivõrd on tudeng omandanud oskused kasutada R-i andmete töötlemiseks. Samuti oskust R-ga analüüside tulemusi vormistada (nt. joonised).
   * Projekti tuleb teha kahestes meeskondades, kuid võib ka üksinda. 
