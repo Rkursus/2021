@@ -2,19 +2,11 @@
 # --- I praktikum ----
 
 
+# Palun loe siintoodud koodi kõrvale ka praktikumimaterjalide tekst läbi.
+
+
+
 # --- 1. Sissejuhatus ----
-
-# Palun loe praktikumimaterjalide tekst läbi.
-# Seadistame RStudio-t:
-## Pane paika kodeerimine (ingl. k. encoding), et RStudio ka täpitähte (õäöü) tunnistaks.
-## Tools -> Global Options -> Code -> Savings -> Default text encoding (vali "UTF-8" kui seal on midagi muud)
-## 
-## Vaata, kas on õige R-i versioon RStudio 'kõhus'
-## 
-## Lisaks saab seadistada värve ja väljanägemist
-## Tools -> Global Options -> Appearence
-##
-
 
 # --- 1.1 Kasutajaliidesed ----
 
@@ -226,6 +218,13 @@ sum(____)
 
 
 # --- LISA: Kasutajaliidesest veel ---
+
+# Seadistame RStudio-t:
+## Pane paika kodeerimine (ingl. k. encoding), et RStudio ka täpitähte (õäöü) tunnistaks.
+## Tools -> Global Options -> Code -> Savings -> Default text encoding (vali "UTF-8" kui seal on midagi muud)
+## 
+## Lisaks saab seadistada värve ja väljanägemist
+## Tools -> Global Options -> Appearence
 
 # Kas sul tekkis korraks küsimus, miks on kogu eelnev kood just nii kirjutatud?
 # Kuidas on kommentaarid kirjutatud? Miks on mõnede kommentaaride ridade ees ja järel '---'?
