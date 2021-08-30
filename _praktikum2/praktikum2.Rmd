@@ -256,7 +256,7 @@ naide1 <- read.table("https://github.com/Rkursus/2021/raw/master/data/esimene.tx
 
 Töökeskkonnas olevaid andmetabeleid saab faili kirjutada käsuga `write.table(.)`, andes käsule ette salvestatava andmestiku nime ning loodava faili nime jutumärkides (vajaduse korral koos kataloogiteega):
 ```{r, eval = F}
-write.table(näide1, "failinimi.txt", sep = "\t")
+write.table(naide1, "failinimi.txt", sep = "\t")
 ```
 
 ### Ülesanded

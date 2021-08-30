@@ -33,8 +33,8 @@ Andmete importimine, väärtustetüübid ja teisendused, lisapakettide kasutamin
 
 Töö andmestikuga, alamhulkade eraldamine andmetest, uute tunnuste lisamine. 
 
-* [Praktikumi materjalid](praktikum3)
-* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum3/praktikum3_kood.R)
+* [Praktikumi materjalid]<!--(praktikum3)-->
+* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum3/praktikum3_kood.R)-->
 
 
 ## Praktikum 4
@@ -42,8 +42,8 @@ Töö andmestikuga, alamhulkade eraldamine andmetest, uute tunnuste lisamine.
 
 Andmestike ühendamine, unikaalsed ja mitmekordsed elemendid, andmete sorteerimine. Andmestiku teisendused (pikk ja lai andmetabel), andmestruktuurid.
 
-* [Praktikumi materjalid](praktikum4)
-* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum4/praktikum4_kood.R)
+* [Praktikumi materjalid]<!--(praktikum4)-->
+* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum4/praktikum4_kood.R)-->
 * Kodutöö II <!--[Kodutöö](praktikum4_kodutoo.md)-->
     * Tähtaeg:
 		* I rühm - 23.09.2021 kell 07:45.
@@ -57,8 +57,8 @@ Andmestike ühendamine, unikaalsed ja mitmekordsed elemendid, andmete sorteerimi
 Joonised paketiga `ggplot2`.
 
 * Tutvu raamatuga [Data visualization: a practical introduction](http://socviz.co/)
-* [Praktikumi materjalid](praktikum5)
-* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum5/praktikum5_kood.R)
+* [Praktikumi materjalid]<!--(praktikum5)-->
+* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum5/praktikum5_kood.R)-->
 
 
 ## Praktikum 6
@@ -68,8 +68,8 @@ Joonised `ggplot2`-ga jätkub - joonisele kihtide lisamine, skaalade muutmine, j
 
 * Tutvu raamatuga [R Graphics Cookbook](https://r-graphics.org)
 * Tutvu [`ggplot2` näidetega](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
-* [Praktikumi materjalid](praktikum6)
-* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum6/praktikum6_kood.R)
+* [Praktikumi materjalid]<!--(praktikum6)-->
+* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum6/praktikum6_kood.R)-->
 * Kodutöö III <!--Kodutöö](praktikum6_kodutoo.md)-->
     * Tähtaeg:
 		* I rühm - 30.09.2021 kell 07:45.
@@ -81,8 +81,8 @@ Joonised `ggplot2`-ga jätkub - joonisele kihtide lisamine, skaalade muutmine, j
 
 Andmetöötluse lisapaketid `dplyr` ja `data.table`.
 
-* [Praktikumi materjalid](praktikum7)
-* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum7/praktikum7_kood.R)
+* [Praktikumi materjalid]<!--(praktikum7)-->
+* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum7/praktikum7_kood.R)-->
 
 
 ## Praktikum 8
@@ -90,8 +90,8 @@ Andmetöötluse lisapaketid `dplyr` ja `data.table`.
 
 Töötamine kuupäevadega ja sõnetöötlus paketiga `stringr`.
 
-* [Praktikumi materjalid](praktikum8)
-* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum8/praktikum8_kood.R)
+* [Praktikumi materjalid]<!--(praktikum8)-->
+* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum8/praktikum8_kood.R)-->
 * Kodutöö IV <!--[Kodutöö](praktikum8_kodutoo.md)-->
     * Tähtaeg:
 		* I rühm - 7.10.2021 kell 07:45.
@@ -105,8 +105,8 @@ Töötamine kuupäevadega ja sõnetöötlus paketiga `stringr`.
 Programmeerimine R-is - tsüklid, tingimuslaused, funktsioonide defineerimine, juhuarvude simuleerimine.
 
 * Tutvu raamatuga [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
-* [Praktikumi materjalid](praktikum9)
-* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum9/praktikum9_kood.R)
+* [Praktikumi materjalid]<!--(praktikum9)-->
+* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum9/praktikum9_kood.R)-->
 
 
 ## Praktikum 10
@@ -115,8 +115,8 @@ Programmeerimine R-is - tsüklid, tingimuslaused, funktsioonide defineerimine, j
 Tulemuste vormistamine pakettidega `knitr` ja `rmarkdown`.
 
 * Tutvu raamatuga [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
-* [Praktikumi materjalid](praktikum10)
-* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum10/praktikum10_kood.Rmd)
+* [Praktikumi materjalid]<!--(praktikum10)-->
+* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum10/praktikum10_kood.Rmd)-->
 * Kodutöö V <!--[Kodutöö](praktikum10_kodutoo.md)-->
     * Tähtaeg:
 		* I rühm - 14.10.2021 kell 07:45.

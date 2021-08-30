@@ -1,4 +1,5 @@
-# --------- I praktikum ---------
+# --- Rakendustarkvara R
+# --- I praktikum ----
 
 
 # --- 1. Sissejuhatus ----
@@ -15,20 +16,28 @@
 ##
 
 
-# --- 1.1 Kasutajaliides ----
+# --- 1.1 Kasutajaliidesed ----
 
+# --- 1.1.1 Programm R ise ----
+# Tutvu programmi R graafilise kasutajaliidesega
+
+# --- 1.1.2 R-i kasutamine RStudio kaudu
 # Tutvu RStudio kasutajaliidesega, kuhu kirjutada kood, kuhu ilmuvad vastused?
 # Kust saab ülevaate hetkel R-i mälus toimuvast?
 # Kuhu saab otsida abi? Kuhu ilmuvad pildid?
 
-# --- 1.2 Mõned tehted ----
+
+# --- proovi läbi mõned tehted 
 4 * 6
 3 + 5  + (23 - 67)*4
 4 * (1:40)
 5*6 ; 7 + 8  # kaks käsku ühel rael eraldada semikooloniga
+log(5.9)  # kümnendmurru eraldamiseks kasutatakse R-is punkti 
 
 
-# --- Näited alapunktist: Lihtsam aritmeetika
+
+
+# --- 1.2 Näited alapunktist: Lihtsam aritmeetika
 1 + (2 - 3) * 4/5
 2 ^ 3 - 2 ** 3
 5 %% 3
@@ -68,7 +77,7 @@ log(8, base = 2)
 
 
 # ---- ÜL 1.3.1 ----
-# 1 abi akna avamine
+# 1 abiakna avamine
 
 
 # 2  aritmeetilised tehted, tehtesümboli kohta abi küsimuseks panna see jutumärkidesse
@@ -121,7 +130,7 @@ c(987, -Inf, "tekst", kaalud)*3  #  aga tekstidega ei saa arvutusi teha
 
 # jada täisarvudest sammuga 1, kasvav või kahanev
 1:5 
-20:15
+2:-6
 
 # Üldisem jada, ette anda algus ja lõpp ning samm või vektori pikkus
 seq(from = 2, to = 30, by = 2)
@@ -228,14 +237,11 @@ sum(____)
 # Tihedamini kasutatavad koodijupid tasuks seadistada 'snippet'-ks
 # Tools -> Global Options -> Code -> Editing -> Edit snippets
 #
-# Näide: Hakka script aknasse kirjutama 'shinyapp' ja vajuta Tab klahvi. Mis juhtus?
+# Näide: Hakka script aknasse kirjutama 'function' ja vajuta Tab klahvi. Mis juhtus?
 #
 # Selekteeri alumised 3 rida ja vajuta Ctrl+Shift+A. Mis juhtus?
 if(!exists("x")){
   x=c(3,5)
   y=x[2]}
-
-
-
 
 
