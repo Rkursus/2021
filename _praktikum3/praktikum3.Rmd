@@ -240,7 +240,9 @@ andmed1$MARHT <- factor(andmed1$MARHT, levels = c("One time", "Two times", "Thre
 table(andmed1$MARHT)
 ```
 
-Mõnikord on imporditud andmestikus arvulised tunnused faktorkujul sellepärast, et sisseloetavas failis oli viga ning ühes lahtris oli arvu asemel mingi tekst. Kui nüüd proovida `as.numeric(.)` käsuga see tunnus arvuliseks teisendada, tekib segadus: `Factor`-tüüpi tunnus on juba täisarvude tunnus (kuigi neil on sildid juures) ning seetõttu antakse tulemuseks need täisarvud ehk kodeeringud. Segadust ei teki, kui faktortunnus kõigepealt sõneks teisendada (kodeeringud kaotatakse, jäävad ainult sildid) ning alles seejärel arvudeks.
+Kui andmete impordil määrata faktorite tekitamine (st määrata argument `stringsAsFactors = TRUE`) võib juhtuda, et mõni arvuline tunnus määratakse faktortunnuseks -- seda seepärast, et  sisseloetavas failis oli viga ja mõnes lahtris oli arvu asemel mingi tekst.
+<!--Mõnikord on imporditud andmestikus arvulised tunnused faktorkujul sellepärast, et sisseloetavas failis oli viga ning ühes lahtris oli arvu asemel mingi tekst. -->
+Kui nüüd proovida `as.numeric(.)` käsuga see tunnus  arvuliseks teisendada, tekib segadus: `Factor`-tüüpi tunnus on juba täisarvude tunnus (kuigi neil on sildid juures) ning seetõttu antakse tulemuseks need täisarvud ehk kodeeringud. Segadust ei teki, kui faktortunnus kõigepealt sõneks teisendada (kodeeringud kaotatakse, jäävad ainult sildid) ning alles seejärel teha teisendus arvudeks.
 ```{r}
 (x <- factor(c("1", "8", "ei vastanud", "12"))) # välimised sulud tingivad väljatrüki
 as.numeric(x)

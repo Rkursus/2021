@@ -6,7 +6,7 @@
 # --- 1. Toimingud andmestikuga ----
 
 # Andmestik
-andmed <- read.table("https://github.com/Rkursus/2020/raw/master/data/mass.txt",
+andmed <- read.table("https://github.com/Rkursus/2021/raw/master/data/mass.txt",
                      header = T, sep = "\t")
 str(andmed)
 head(andmed)
@@ -134,7 +134,7 @@ table(andmed$SCHL)
 
 # --- 1.4 Faktortunnus ----
 # loeme andmestiku uuesti sisse, tekitades faktor-tunnused
-andmed1 <- read.table("https://github.com/Rkursus/2020/raw/master/data/mass.txt", 
+andmed1 <- read.table("https://github.com/Rkursus/2021/raw/master/data/mass.txt", 
                       header = T, sep = "\t", stringsAsFactors = T)
 # tekitame uuesti alamandmestiku
 mehed1 <- andmed1[andmed1$SEX == "Male",]  
@@ -179,7 +179,6 @@ table(andmed$vanusgrupp)
 table(andmed$CIT)
 mitte <- andmed[____,____]
 
-# soo ja vanusgrupi sagedustabel
 tab <- table(mitte[___,___])
 tab
 
