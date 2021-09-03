@@ -19,7 +19,7 @@ title: Praktikumimaterjalid
 Andmete importimine, väärtustetüübid ja teisendused, lisapakettide kasutamine, erinevas formaadis andmestike lugemine R-i, andmetabel R-is, esmane andmete kirjeldus.
 
 * [Praktikumi materjalid](praktikum2)
-* Praktikumi R kood<!--(https://github.com/Rkursus/2021/raw/master/_praktikum2/praktikum2_kood.R)-->
+* Praktikumi R kood <!--(https://github.com/Rkursus/2021/raw/master/_praktikum2/praktikum2_kood.R)-->
 * [RStudio snipetid](https://github.com/Rkursus/2021/raw/master/RStudio_snippetid.txt)
 * Kodutöö I <!-- [Kodutöö](praktikum2_kodutoo.md)-->
     * Tähtaeg:
@@ -33,8 +33,8 @@ Andmete importimine, väärtustetüübid ja teisendused, lisapakettide kasutamin
 
 Töö andmestikuga, alamhulkade eraldamine andmetest, uute tunnuste lisamine. 
 
-* [Praktikumi materjalid]<!--(praktikum3)-->
-* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum3/praktikum3_kood.R)-->
+* [Praktikumi materjalid] (praktikum3)
+* Praktikumi R kood<!--(https://github.com/Rkursus/2021/raw/master/_praktikum3/praktikum3_kood.R)-->
 
 
 ## Praktikum 4
@@ -42,8 +42,8 @@ Töö andmestikuga, alamhulkade eraldamine andmetest, uute tunnuste lisamine.
 
 Andmestike ühendamine, unikaalsed ja mitmekordsed elemendid, andmete sorteerimine. Andmestiku teisendused (pikk ja lai andmetabel), andmestruktuurid.
 
-* [Praktikumi materjalid]<!--(praktikum4)-->
-* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum4/praktikum4_kood.R)-->
+* [Praktikumi materjalid] (praktikum4)
+* Praktikumi R kood <!--(https://github.com/Rkursus/2021/raw/master/_praktikum4/praktikum4_kood.R)-->
 * Kodutöö II <!--[Kodutöö](praktikum4_kodutoo.md)-->
     * Tähtaeg:
 		* I rühm - 23.09.2021 kell 07:45.
