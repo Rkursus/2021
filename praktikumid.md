@@ -57,7 +57,7 @@ Andmestike ühendamine, unikaalsed ja mitmekordsed elemendid, andmete sorteerimi
 Joonised paketiga `ggplot2`.
 
 * Tutvu raamatuga [Data visualization: a practical introduction](http://socviz.co/)
-* [Praktikumi materjalid]<!--(praktikum5)-->
+* [Praktikumi materjalid](praktikum5)
 * [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum5/praktikum5_kood.R)-->
 
 
@@ -68,7 +68,7 @@ Joonised `ggplot2`-ga jätkub - joonisele kihtide lisamine, skaalade muutmine, j
 
 * Tutvu raamatuga [R Graphics Cookbook](https://r-graphics.org)
 * Tutvu [`ggplot2` näidetega](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html)
-* [Praktikumi materjalid]<!--(praktikum6)-->
+* [Praktikumi materjalid](praktikum6)
 * [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum6/praktikum6_kood.R)-->
 * Kodutöö III <!--Kodutöö](praktikum6_kodutoo.md)-->
     * Tähtaeg:
