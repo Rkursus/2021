@@ -9,7 +9,7 @@
 
 
 # Baasgraafika näited
-andmed <- read.table("https://github.com/Rkursus/2020/raw/master/data/mass.txt",
+andmed <- read.table("https://github.com/Rkursus/2021/raw/master/data/mass.txt",
                      header = T, sep = "\t")
 
 par(mfrow = c(1, 2), cex = 0.6) # see rida võimaldab kaks joonist kõrvuti panna
@@ -23,7 +23,7 @@ legend("topleft", pch = 19, col = 2:3, legend = levels(factor(andmed$SEX)))
 library(ggplot2)
 
 # andmed
-mk <- read.table("https://github.com/Rkursus/2020/raw/master/data/maakonnad.txt",
+mk <- read.table("https://github.com/Rkursus/2021/raw/master/data/maakonnad.txt",
                  sep = " ", 
                  header = T)
 head(mk)
@@ -40,7 +40,7 @@ ggplot(data = mk, mapping = aes(x = bachelor, y = per_capita_inc)) +
 # --- ÜL 1.2.1 ----
 
 # 1. loe sisse maakondade andmestik
-link <- "https://github.com/Rkursus/2020/raw/master/data/"
+link <- "https://github.com/Rkursus/2021/raw/master/data/"
 mk <- read.table(paste0(link, "maakonnad.txt"), sep = " ", header=T)
 
 # 2. hajuvusdiagramm: high_scl vs bachelor
@@ -107,7 +107,7 @@ ggplot(data = mk, aes(x = State)) +
 ggplot(data = mk, aes(x = State)) + geom_bar() + coord_flip()
 
 # Kui toorandmete asemel on juba valmis sagedustabel
-sagedustabel <- as.data.frame(table(mk$State))
+(sagedustabel <- as.data.frame(table(mk$State)))
 ggplot(sagedustabel, aes(x = Var1, y = Freq)) + geom_bar(stat = "identity")
 ggplot(sagedustabel, aes(x = Var1, y = Freq)) + geom_col()
 
@@ -192,7 +192,7 @@ ggplot(mk, aes(_______,_______)) + geom________(aes(color = sooylekaal))
 
 
 # 3. joondiagramm vererõhkudele (isikukaupa) värv soo põhjal
-link <- "https://github.com/Rkursus/2020/raw/master/data/"
+link <- "https://github.com/Rkursus/2021/raw/master/data/"
 visiidid <- read.table(paste0(link, "visiidid.txt"), sep = "\t", header = TRUE)
 inimesed <- read.table(paste0(link, "isikud.txt"), sep = "\t", header = TRUE)
 

@@ -1,12 +1,14 @@
 ---
 title: | 
+  
   | Rakendustarkvara: R 
   | 6. praktikum^[Praktikumijuhendid põhinevad aine MTMS.01.092 Rakendustarkvara: R (2 EAP) materjalidel, mille autorid on Mait Raag ning Raivo Kolde]
-  
 output: 
   html_document:
     theme: null
     number_sections: true
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r, include=FALSE, warning=FALSE}
@@ -70,7 +72,9 @@ rotid <- nlme::BodyWeight
 rotid <- rotid[rotid$Diet != 1, ]  
 p <- ggplot(rotid, aes(factor(Time), weight)) + geom_point(color = "gray") + 
   stat_summary(geom = "errorbar", fun.data = mean_se, fun.args = list(mult = 1.96)) +
-  stat_summary(geom = "point", fun = mean)
+  stat_summary(geom = "point", fun = mean) + 
+  geom_hline(yintercept = 600, color = "red")
+
 p
 p + ylim(390, 600)
 ```
@@ -79,7 +83,8 @@ rotid <- nlme::BodyWeight # andmestik kodutööst
 rotid <- rotid[rotid$Diet != 1, ]  
 p <- ggplot(rotid, aes(factor(Time), weight)) + geom_point(color = "gray") + 
   stat_summary(geom = "errorbar", fun.data = mean_se, fun.args = list(mult = 1.96)) +
-  stat_summary(geom = "point", fun = mean)
+  stat_summary(geom = "point", fun = mean) + 
+  geom_hline(yintercept = 600, color = "red")
 p
 ```
 ```{r,echo=FALSE,fig.height=3.,fig.width=3., warning=FALSE}
@@ -89,7 +94,7 @@ p + ylim(390, 600)
 p + ylim(390, 600)  
 ```
 
-Kuna kolm vaatlust andmetes on üle 600, siis määratud piir `ylim(390, 600)` jätab need välja kõigilt kihtidelt. Väljundisse tuleb kolm hoiatust, üks hoiatus iga lisatava kihi kohta (hajuvusdiagramm, usalduspiirid ja keskväärtus punktina kiht). 
+Kuna kolm vaatlust andmetes on üle 600, siis määratud piir `ylim(390, 600)` jätab need välja kõigilt kihtidelt. Väljundisse tuleb kolm hoiatust, üks hoiatus iga lisatava kihi kohta (hajuvusdiagramm, usalduspiirid ja keskväärtus punktina kiht). Parempoolsel joonisel on muutunud kolm viimast usaldusintervalli, sest nendest gruppidest eemaldati väärtused.
 
 
 
@@ -103,6 +108,7 @@ Pidevate skaalade muutmise käskudel (nt `scale_<?>_continuous`, `scale_<?>_grad
 
 Arumendi `trans` kasutamise näide on toodud praktimijuhendi alguses: x-telje skaala on sellel joonisel logaritmiline.
 
+<!-- 
 Argumendi `limits` mõju võrrelduna graafikult lõike tegemisega (`coord_cartesian`) vaata järgmistel joonistel regressioonsirgeid võrreldes. 
 
 ```{r,warning=FALSE, eval = F}
@@ -121,7 +127,7 @@ p2 + geom_smooth(method = lm) + coord_cartesian(xlim = 1:2*10^4) +
   guides(color = FALSE)+
   theme(title = element_text(size = 9))
 ```
-
+-->
 
 
 ## Diskreetsete skaalade muutmine

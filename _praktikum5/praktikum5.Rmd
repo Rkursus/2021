@@ -1,12 +1,14 @@
 ---
 title: | 
+  
   | Rakendustarkvara: R 
   | 5. praktikum^[Praktikumijuhendid põhinevad aine MTMS.01.092 Rakendustarkvara: R (2 EAP) materjalidel, mille autorid on Mait Raag ning Raivo Kolde]
-  
 output: 
   html_document:
     theme: null
     number_sections: true
+editor_options: 
+  chunk_output_type: console
 ---
 
  
@@ -95,6 +97,7 @@ Igat tüüpi tunnuseid ei saa suvaliste jooniseühikutega seostada, näiteks arv
   - `fill` -- sisemuse värvus (ainult mõne `shape` väärtuse korral) [num, chr, logical, Factor]
   - `shape` -- punkti kuju (kuni 25 erinevat + ise määratavad sümbolid) [chr, logical, Factor]
   - `size` -- punkti suurus [num]
+  - `stroke` -- kujundi piirjoone tugevus (ainult mõne `shape` väärtuse korral) [num]
 
 
 
@@ -204,11 +207,11 @@ ggplot(data = mk, aes(x = State)) + geom_bar() + coord_flip()
 
 Praegu andsime tulpdiagrammi moodustamises ette tunnuse nö toorväärtused, vahel on aga tulpdiagramm vaja moodustada valmis sagedustabeli põhjal. Selleks, et tulpade kõrgus  määrata mingi tunnuse väärtuste põhjal tuleks `geom_bar` argumendiks lisada  `stat = "identity"`
 ```{r, eval = F}
-sagedustabel <- as.data.frame(table(mk$State))
+(sagedustabel <- as.data.frame(table(mk$State)))
 ggplot(sagedustabel, aes(x = Var1, y = Freq)) + geom_bar(stat = "identity")
 ```
 ```{r, echo = F, eval = F, include = F}
-sagedustabel <- as.data.frame(table(mk$State, mk$Poverty_factor))
+(sagedustabel <- as.data.frame(table(mk$State, mk$Poverty_factor)))
 ggplot(sagedustabel, aes(x = Var1, y = Freq, fill = Var2)) + geom_bar(stat = "identity", position = "fill")
 ```
 Alternatiivne variant on aga kasutada funktsiooni `geom_col()`
