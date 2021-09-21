@@ -222,6 +222,7 @@ Vaatame edasi isikukoodide vektori (`isikukoodid` eelmisest ülesandest) põhjal
 1. Lisa isikute andmestikku veerg, mis sisaldaks iga inimese sünnikuupäeva *Date*-tüüpi muutujana. 
 1. Lisa veerg, mis annab inimese vanuse täisaastates tänasel päeval (arvestades, et aastas on ~365,25 päeva).
 1. Leia kuupäev, mil said/saad  10 000 päeva vanuseks.
+1. Kuupäevadega töötamiseks saab kasutada ka lisapaketi **lubridate** funktsioone. Vaata infot lehelt [**lubridate**](https://lubridate.tidyverse.org/)
 ```{r, eval=FALSE, include=FALSE}
 isikukoodid <- (read.table("https://github.com/Rkursus/2021/raw/master/data/isikukoodid.txt"))[1,]
 ik <- unlist(str_split(isikukoodid, ",") )

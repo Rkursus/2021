@@ -1,12 +1,14 @@
 ---
 title: | 
+  
   | Rakendustarkvara: R 
   | 7. praktikum^[Praktikumijuhendid põhinevad aine MTMS.01.092 Rakendustarkvara: R (2 EAP) materjalidel, mille autorid on Mait Raag ning Raivo Kolde]
-  
 output: 
   html_document:
     theme: null
     number_sections: true
+editor_options: 
+  chunk_output_type: console
 ---
 
 
@@ -36,7 +38,7 @@ Kõigi funktsioonide esimene argument on andmetabel, järgmised argumendid täps
 ## Paketi dplyr  käskude kasutamine
 Loeme kõigepealt sisse näiteandmestiku: Massachusettsi valikuuring
 ```{r, warning=FALSE, message=F}
-mass <- read.table("https://github.com/Rkursus/2020/raw/master/data/mass.txt", sep = "\t", header = T)
+mass <- read.table("https://github.com/Rkursus/2021/raw/master/data/mass.txt", sep = "\t", header = T)
 ```
 Paketi installimine ja aktiveerimine:
 ```{r, warning=FALSE, message=F}
@@ -114,7 +116,7 @@ head(summarise(group_by(mass, SEX, MAR), keskpalk = mean(WAGP, na.rm = T), n = n
 ```{r, eval=FALSE, include=FALSE}
 # n()
 #This function is implemented specifically for each data source and can only be used from within summarise(), mutate() and filter().
-mass <- read.table("https://github.com/Rkursus/2020/raw/master/data/mass.txt", sep = "\t", header=T)
+mass <- read.table("https://github.com/Rkursus/2021/raw/master/data/mass.txt", sep = "\t", header=T)
 mass$vanusgr <- cut(mass$AGEP, seq(0, 100, 5), include.lowest = T)
 
 summarise(group_by(filter(mass, AGEP > 15, AGEP < 86),  vanusgr, SEX), 
@@ -285,7 +287,7 @@ DT[, c("uus1", "uus2") := NULL][]
 ```
  
 
-###Ülesanded
+### Ülesanded
 
 1. Teisenda andmestik `mass` paketi **data.table**  andmetüübiks käsuga `as.data.table(.)`.
 1. Kasutades `DT[i, j, by]` konstruktsiooni leia  mitu meessoost üle 60 aastast on uuritavate hulgas.
@@ -295,7 +297,7 @@ DT[, c("uus1", "uus2") := NULL][]
 1. Tekita tabel, kus oleks soo ja perekonnaseisu gruppides leitud keskmine vanus, vanuse standardhälve ja levinum haridustase.
 
 ```{r, eval = F, echo = F}
-mass <- read.table("https://github.com/Rkursus/2020/raw/master/data/mass.txt", header = T, sep = "\t")
+mass <- read.table("https://github.com/Rkursus/2021/raw/master/data/mass.txt", header = T, sep = "\t")
 dtmass <- as.data.table(mass)
 is.data.table(dtmass)
 
@@ -318,7 +320,7 @@ tab1[, osak := round(sagedus/sum(sagedus), 2),]
 tab1[, jaotus := round(prop.table(sagedus), 2) ]
 tab1
 
-# kas saab korrda st kasutada  defineeritud kohe samas käsus mingiks muuks arvutseks?
+# kas saab   kasutada  defineeritud tunnust kohe samas käsus mingiks muuks arvutseks?
 #dtmass[, {sagedus = .N; jaotus = sagedus/sum(sagedus); list(sagedus = sagedus, jaotus= jaotus)}, by = MAR]
 #dtmass[, .(sagedus = table(MAR), jaotus = table(MAR)),]
 dtmass[, {sagedus = table(MAR); jaotus = prop.table(sagedus); list(sagedus = sagedus, jaotus = jaotus)},]

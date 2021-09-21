@@ -81,7 +81,7 @@ Joonised `ggplot2`-ga jätkub - joonisele kihtide lisamine, skaalade muutmine, j
 
 Andmetöötluse lisapaketid `dplyr` ja `data.table`.
 
-* [Praktikumi materjalid]<!--(praktikum7)-->
+* [Praktikumi materjalid](praktikum7)
 * [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum7/praktikum7_kood.R)-->
 
 
@@ -90,7 +90,7 @@ Andmetöötluse lisapaketid `dplyr` ja `data.table`.
 
 Töötamine kuupäevadega ja sõnetöötlus paketiga `stringr`.
 
-* [Praktikumi materjalid]<!--(praktikum8)-->
+* [Praktikumi materjalid](praktikum8)
 * [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum8/praktikum8_kood.R)-->
 * Kodutöö IV <!--[Kodutöö](praktikum8_kodutoo.md)-->
     * Tähtaeg:
