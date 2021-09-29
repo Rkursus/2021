@@ -105,7 +105,7 @@ Töötamine kuupäevadega ja sõnetöötlus paketiga `stringr`.
 Programmeerimine R-is - tsüklid, tingimuslaused, funktsioonide defineerimine, juhuarvude simuleerimine.
 
 * Tutvu raamatuga [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
-* [Praktikumi materjalid]<!--(praktikum9)-->
+* [Praktikumi materjalid](praktikum9)
 * [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum9/praktikum9_kood.R)-->
 
 
@@ -115,7 +115,7 @@ Programmeerimine R-is - tsüklid, tingimuslaused, funktsioonide defineerimine, j
 Tulemuste vormistamine pakettidega `knitr` ja `rmarkdown`.
 
 * Tutvu raamatuga [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
-* [Praktikumi materjalid]<!--(praktikum10)-->
+* [Praktikumi materjalid](praktikum10)
 * [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum10/praktikum10_kood.Rmd)-->
 * Kodutöö V <!--[Kodutöö](praktikum10_kodutoo.md)-->
     * Tähtaeg:

@@ -49,7 +49,7 @@ while(a < 10) {
 1. Loe sisse Massachusetts'i andmestik:\newline
 `mass <- read.table("https://github.com/Rkursus/2021/raw/master/data/mass.txt", sep = "\t", header = TRUE)` \newline
 Kasutades tsüklit leia tabel, kus oleks üle 15 aastaste korral arvutatud ametialade  (`OCCP`) kaupa  keskmine ja summaarne nädala töötundide (`WKHP`) arv. Vaata ainult neid, kel on ametiala teada ja kes pole `OCCP`  järgi töötud.
-1. Tee sama tabel **dplyr** ja **data.table** paketide käske kasutades; võrdle kulunud aega kasutades käsku `system.time({.})`.
+1. Tee sama tabel **dplyr** ja **data.table** pakettide käske kasutades; võrdle kulunud aega kasutades käsku `system.time({.})`.
 <!--1. Tee sama **plyr**,  **dplyr**  ja  **data.table** teegi käske kasutades; võrdle kulunud aega kasutades käsku `Sys.time(.)` või `system.time({.})`.-->
 
 
@@ -274,8 +274,8 @@ Mõnede teiste jaotuse juhuarvude genereerimise funktsioonid (kvantiilide, tihed
 * `rbinom(.)` -- binoomjaotus; seda tuleb kasutada ka Bernoulli jaotusest arvude genereerimiseks
 * `rpois(.)` -- Poissoni jaotus
 * `rnorm(.)` -- normaaljaotus
-* `rt(.)` -- t-jaotus
-* `rchisq(.)` -- hii-ruut jaotus
+* `rt(.)` -- *t*-jaotus
+* `rchisq(.)` -- $\chi^2$ jaotus
 * `rexp(.)` -- eksponentjaotus
 
 Väga kasulik on käsk `sample(.)`, mis aitab lihtsasti teha juhuvalikut etteantud vektori elementide hulgast. Näiteks siis, kui on vaja mingisuguse algoritmi tööd teatud suurel andmestikul kontrollida, on mõistlik võtta sellest andmestikust juhuvalim ja kontrollida selle peal. 
@@ -283,7 +283,7 @@ Väga kasulik on käsk `sample(.)`, mis aitab lihtsasti teha juhuvalikut etteant
 ### Ülesanded
 
 1. Kirjuta funktsioon, mis genereerib kasutaja poolt määratud mõõtmetega arvutabeli (maatriksi) Poissoni jaotusest arvudega, kusjuures Poissoni jaotuse parameeter on samuti kasutaja poolt määratud. 
-1. Kirjuta funktsioon, mis ette antud 2x2 maatriksi põhjal teeb hii-ruut testi ja tagastab vastava p-väärtuse. 
+1. Kirjuta funktsioon, mis ette antud 2x2 maatriksi põhjal teeb $\chi^2$-testi ja tagastab vastava *p*-väärtuse. 
 
 ```{r eval=FALSE, include=FALSE}
 # 1
