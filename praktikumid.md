@@ -34,7 +34,7 @@ Andmete importimine, väärtustetüübid ja teisendused, lisapakettide kasutamin
 Töö andmestikuga, alamhulkade eraldamine andmetest, uute tunnuste lisamine. 
 
 * [Praktikumi materjalid](praktikum3)
-* Praktikumi R kood<!--(https://github.com/Rkursus/2021/raw/master/_praktikum3/praktikum3_kood.R)-->
+* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum3/praktikum3_kood.R)
 
 
 ## Praktikum 4
@@ -43,7 +43,7 @@ Töö andmestikuga, alamhulkade eraldamine andmetest, uute tunnuste lisamine.
 Andmestike ühendamine, unikaalsed ja mitmekordsed elemendid, andmete sorteerimine. Andmestiku teisendused (pikk ja lai andmetabel), andmestruktuurid.
 
 * [Praktikumi materjalid](praktikum4)
-* Praktikumi R kood <!--(https://github.com/Rkursus/2021/raw/master/_praktikum4/praktikum4_kood.R)-->
+* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum4/praktikum4_kood.R)
 * Kodutöö II <!--[Kodutöö](praktikum4_kodutoo.md)-->
     * Tähtaeg:
 		* I rühm - 23.09.2021 kell 07:45.
