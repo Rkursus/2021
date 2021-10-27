@@ -139,11 +139,11 @@ b + scale_x_discrete(limits = c("Texas", "Maryland", "Alaska"))
 # b +  scale_x_discrete(breaks = c("Texas", "Maryland", "Alaska")) 
 ```
 
-Kui joonise värvid on määratud diskreetsel skaalal, siis limits argumendiga saab määrata millisete väärtusklasside elemendid värvitakse ja millised jäetakse värvimata (vaikimisi jäävad halliks):
+Kui joonise värvid on määratud diskreetsel skaalal, `siis` limits argumendiga saab määrata millisete väärtusklasside elemendid värvitakse ja millised jäetakse värvimata (vaikimisi jäävad halliks):
 ```{r,warning=FALSE, fig.width=3, fig.show='hide', eval = F}
 b1 <- ggplot(data = mk, aes(bachelor, unemployment_rate, color = State)) + geom_point()
 b1 + scale_color_discrete(limits = c("Texas", "Maryland", "Alaska")) 
-# NA väärtuse värvi saa ka muuta
+# NA väärtuse värvi saab ka muuta
 b1 + scale_color_discrete(limits = c("Texas", "Maryland", "Alaska"), na.value = "white")
 ```
 ```{r,warning=FALSE, fig.width=3.4, fig.height=3,  fig.show = "hold" , echo = F}
@@ -168,7 +168,7 @@ joonis
 1. Määra joonisel  punktide värv sissetuleku tunnuse `per_capita_inc` järgi. Määra legendil tunnuse nimeks `Per capita income`(kasuta käsku `scale_color_continuous(.)` või `labs(.)`).
 1. Jaga tunnuse `per_capita_inc` väärtused viide vahemikku nii, et igas vahemikus oleks üks viiendik vaatlustest. Pane uuele tunnusele nimi `income_class` ja sildista tekkinud väärtusklassid `"Very low", "Low", "Medium", "High", "Very high"`.
 1. Lisa nüüd joonisele, mis tehtud ülesandes 1,   värviga tunnus `income_class` nii, et värvitaks ainult punkte, kus sissetulek on kas väga kõrge või väga madal (`scale_color_discrete(.)`).
-1. Proovi, mis on tulemus kui `scale_color_discrete(.)` käsule lisada argument `guide = FALSE`.
+1. Proovi, mis on tulemus kui `scale_color_discrete(.)` käsule lisada argument `guide = "none"` (`guide = FALSE`).
 
 ```{r, echo = F, eval = F, results ='hide'}
 #-- 1
