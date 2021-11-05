@@ -82,7 +82,7 @@ Joonised `ggplot2`-ga jätkub - joonisele kihtide lisamine, skaalade muutmine, j
 Andmetöötluse lisapaketid `dplyr` ja `data.table`.
 
 * [Praktikumi materjalid](praktikum7)
-* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum7/praktikum7_kood.R)-->
+* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum7/praktikum7_kood.R)
 
 
 ## Praktikum 8
