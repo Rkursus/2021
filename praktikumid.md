@@ -106,7 +106,7 @@ Programmeerimine R-is - tsüklid, tingimuslaused, funktsioonide defineerimine, j
 
 * Tutvu raamatuga [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
 * [Praktikumi materjalid](praktikum9)
-* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum9/praktikum9_kood.R)-->
+* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum9/praktikum9_kood.R)
 
 
 ## Praktikum 10
@@ -116,7 +116,7 @@ Tulemuste vormistamine pakettidega `knitr` ja `rmarkdown`.
 
 * Tutvu raamatuga [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 * [Praktikumi materjalid](praktikum10)
-* [Praktikumi R kood]<!--(https://github.com/Rkursus/2021/raw/master/_praktikum10/praktikum10_kood.Rmd)-->
+* [Praktikumi R kood](https://github.com/Rkursus/2021/raw/master/_praktikum10/praktikum10_kood.Rmd)
 * Kodutöö V <!--[Kodutöö](praktikum10_kodutoo.md)-->
     * Tähtaeg:
 		* I rühm - 14.10.2021 kell 07:45.
