@@ -1,4 +1,4 @@
-"nimi"	"sugu"	"vanus"	"tulemus"	"voistlus"
+"jrk"	"nimi"	"sugu"	"vanus"	"tulemus"	"voistlus"
 "1"	"Laine"	"N"	20	NA	NA
 "2"	"Mari"	"N"	22	30.1	"jooks1"
 "3"	"Peeter"	"M"	30	22.5	"jooks1"
